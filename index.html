@@ -96,7 +96,7 @@
 
             <heading id="Research"><b>Research</b></heading>
             <p>
-            I'm interested in reliable, efficient, and landable deep learning for AI at scale, investigating how to achieve Pareto optimality between decision reliability (uncertainty, robustness, adaptability), computational resources (data, parameters, computation), and model performance (inference, training) of deep learning systems. My long-term research goal is to free AI from the data-parameter-computation hungry beast and democratize AI to serve a broader range of populations and real-world domains.
+            I'm interested in reliable & efficient deep learning systems for AI at scale, investigating how to achieve Pareto optimality between decision reliability (uncertainty, robustness, adaptability), computational resources (data, parameters, computation), and model performance (inference, training) of deep learning systems. My long-term research goal is to free AI from the data-parameter-computation hungry beast and democratize AI to serve a broader range of populations and real-world domains.
             </p>
 
             <ul>
@@ -157,6 +157,8 @@
             <heading id="News"><b>News</b></heading>
               <div class="list scroll">
               <ul>
+                <li>05/2023: Feel free to check out our latest work on Augmented LLM, <b><font color="red">ReWOO <a href="work/ReWOO_arxiv.pdf" style="color:blue;"></b>(paper)</a></font>!
+                <li>05/2023: One paper was accepted to <a href="https://kdd.org/kdd2023/">KDD'23</a>!
                 <li>05/2023: One paper was accepted to <a href="https://2023.aclweb.org/">ACL'23</a>!
                 <li>04/2023: Our work, <b><font color="red">E-App</font></b>, was accepted to <a href="http://www.icccn.org/">ICCCN'23</a>! See u in Honolulu!
                 <li>04/2023: One paper was accepted to <a href="http://www.icaibd.org/">ICAIBD'23</a>! Congrats to our undergrad, Zihan!
@@ -280,19 +282,19 @@
 
           <tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
-              <img src="images/DK/ODQA.png" alt="3DSP" width="160" height="120" style="border-style: none">
+              <img src="images/DK/ReWOO.png" alt="3DSP" width="160" height="120" style="border-style: none">
             </td>
             <td width="75%" valign="middle">
               <a id="3DSP">
-                <papertitle>A Survey for Efficient Open Domain Question Answering</papertitle>
+                <papertitle>ReWOO: Decoupling Reasoning from Observations for Efficient Augmented Language Models</papertitle>
               </a>
               <br>
-              Q. Zhang, S. Chen, <b>D. Xu</b>, Q. Cao, X, Chen, T. Cohn, M. Fang
+              <U>B. Xu</U>, Z. Peng, B. Lei, S. Mukherjee, Y. Liu, <b>D. Xu</b>
+<!--               <br>
+              <em><b>[xxx 2023]</b></em> <i>xxx xxx</i> -->
               <br>
-              <em><b>[ACL 2023]</b></em> <i>The 61th Annual Meeting of the Association for Computational Linguistics</i>
-              <br>
-              <a href="https://arxiv.org/pdf/2211.07886.pdf">PDF</a>
-              <p>We provide a survey of recent advances in <font color="red">the efficiency of ODQA models</font>. We walk through the ODQA models and conclude the core techniques on efficiency. Quantitative analysis on memory cost, processing speed, accuracy and overall comparison are given.</p>
+              <a href="work/ReWOO_arxiv.pdf">PDF</a>
+              <p>We present a modular ALM framework to solve multi-step reasoning by decoupling reasoning from tool feedback and observations. Theoretical decomposition of prompt tokens establishes that our method <font color="red">substantially reduces prompting redundancy in prevailing Thought-Action-Observation ALM systems</font>.</p>
             </td>
           </tr>
 
@@ -305,30 +307,10 @@
                 <papertitle>Exploring the Augmented Large Language Model with Mathematical tools in Personalized and Efficient Education</papertitle>
               </a>
               <br>
-              <U><a href="https://zihandong.wordpress.ncsu.edu/">Zihan Dong</a></U> (<b><font color="red">Undergraduate at NC State</font></b>), <b>D. Xu</b>
+              <U><a href="https://zihandong.wordpress.ncsu.edu/">Zihan Dong</a></U> (<b><font color="red">Undergrad at NC State</font></b>), <b>D. Xu</b>
               <br>
               <em><b>[ICAIBD 2023]</b></em> <i>The 6th International Conference on Artificial Intelligence and Big Data</i>
-              <!-- <br> -->
-              <!-- <a href="https://dongkuanx27.github.io/">PDF (to appear)</a> -->
-              <p>We propose to augment the ChatGPT model with math performance assessments, which facilitate the creation of customized learning experiences based on the needs of each student. This study explores <font color="red">how ChatGPT personalizes the learning experience, how it can be augmented with math and physical performance, and how educators can ensure that the LLM algorithm is unbiased</font>.</p>
-            </td>
-          </tr>
-
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <img src="images/DK/eapp.png" alt="3DSP" width="160" height="120" style="border-style: none">
-            </td>
-            <td width="75%" valign="middle">
-              <a id="3DSP">
-                <papertitle>E-App: Adaptive mmWave Access Point Planning with Environmental Awareness in Wireless LANs</papertitle>
-              </a>
-              <br>
-              Y. Liu, M. Chen, <b>D. Xu</b>, Z. Yang, S. Zhao
-              <br>
-              <em><b>[ICCCN 2023]</b></em> <i>The 32nd International Conference on Computer Communications and Networks</i>
-              <br>
-              <!-- <a href="https://dongkuanx27.github.io/">PDF (to appear)</a> -->
-              <p>To enable ultra-high throughputs while addressing the potential blockage problem, maintaining an adaptive access point (AP) planning is critical to mmWave networking. We develop an adaptive AP planning (E-app) approach that can accurately sense the environment dynamics, reconstruct the obstacle map, and then predict the placements of mmWave APs adaptively.</p>
+              <p>We propose to <font color="red">augment ChatGPT with math performance assessments</font>, which facilitate the creation of customized learning experiences based on the needs of each student. This study explores how ChatGPT personalizes the learning experience, how it can be augmented with math and physical performance, and how educators can ensure that the LLM algorithm is unbiased.</p>
             </td>
           </tr>
 
@@ -359,7 +341,7 @@
             </td>
             <td width="75%" valign="middle">
               <a id="3DSP">
-                <papertitle><font color="red">You Need Multiple Exiting: Dynamic Early Exiting for Accelerating Unified Vision Language Model</font></papertitle>
+                <papertitle>You Need Multiple Exiting: <font color="red">Dynamic Early Exiting for Accelerating Unified Vision Language Model</font></papertitle>
               </a>
               <br>
               <U>S. Tang</U>, Y. Wang, Z. Kong, T. Zhang, Y. Li, C. Ding, Y. Wang, Y. Liang, <b>D. Xu</b>
@@ -368,6 +350,42 @@
               <br>
               <a href="https://arxiv.org/pdf/2211.11152.pdf">PDF</a>
               <p>We propose a novel early exiting strategy based on cascading input similarity with valid assumptions on saturation states in visual-language models, a pioneering exploration of extending early exiting selection to encoders and decoders of sequence-to-sequence architectures.</p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/DK/CaliRare.png" alt="3DSP" width="160" height="120" style="border-style: none">
+            </td>
+            <td width="75%" valign="middle">
+              <a id="3DSP">
+                <papertitle>Towards Reliable Rare Category Analysis on Graphs via Individual Calibration</papertitle>
+              </a>
+              <br>
+              L. Wu, B. Lei, <b>D. Xu</b>, D. Zhou
+              <br>
+              <em><b>[KDD 2023]</b></em> <i>The 29th SIGKDD Conference on Knowledge Discovery and Data Mining</i>
+              <br>
+              <!-- <a href="https://arxiv.org/pdf/2211.07886.pdf">PDF</a> -->
+              <p>How can we quantify the uncertainty in the learning process and enable <font color="red">reliable rare category analysis?</font> We propose an end-to-end method that jointly learns the characterizations of rare categories and calibrates the confidence.</p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/DK/ODQA.png" alt="3DSP" width="160" height="120" style="border-style: none">
+            </td>
+            <td width="75%" valign="middle">
+              <a id="3DSP">
+                <papertitle>A Survey for Efficient Open Domain Question Answering</papertitle>
+              </a>
+              <br>
+              Q. Zhang, S. Chen, <b>D. Xu</b>, Q. Cao, X, Chen, T. Cohn, M. Fang
+              <br>
+              <em><b>[ACL 2023]</b></em> <i>The 61th Annual Meeting of the Association for Computational Linguistics</i>
+              <br>
+              <a href="https://arxiv.org/pdf/2211.07886.pdf">PDF</a>
+              <p>We provide a survey of recent advances in <font color="red">the efficiency of ODQA models</font>. We walk through the ODQA models and conclude the core techniques on efficiency. Quantitative analysis on memory cost, processing speed, accuracy and overall comparison are given.</p>
             </td>
           </tr>
 
@@ -386,6 +404,24 @@
               <br>
               <a href="https://arxiv.org/pdf/2302.09369.pdf">PDF</a>
               <p> We for the first time identify and study the reliability problem of sparse training and find that sparse training exacerbates the over-confidence problem of DNNs. We then develop a new sparse training method, CigL, to produce more reliable sparse models, which can simultaneously maintain or even improve accuracy with only a slight increase in computational and storage burden.</p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/DK/eapp.png" alt="3DSP" width="160" height="120" style="border-style: none">
+            </td>
+            <td width="75%" valign="middle">
+              <a id="3DSP">
+                <papertitle>E-App: Adaptive mmWave Access Point Planning with Environmental Awareness in Wireless LANs</papertitle>
+              </a>
+              <br>
+              Y. Liu, M. Chen, <b>D. Xu</b>, Z. Yang, S. Zhao
+              <br>
+              <em><b>[ICCCN 2023]</b></em> <i>The 32nd International Conference on Computer Communications and Networks</i>
+              <br>
+              <!-- <a href="https://dongkuanx27.github.io/">PDF (to appear)</a> -->
+              <p>To enable ultra-high throughputs while addressing the potential blockage problem, maintaining an adaptive access point (AP) planning is critical to mmWave networking. We develop an adaptive AP planning (E-app) approach that can accurately sense the environment dynamics, reconstruct the obstacle map, and then predict the placements of mmWave APs adaptively.</p>
             </td>
           </tr>
 
@@ -1244,7 +1280,7 @@
                 ICML'21, 22
               </li>
               <li>
-                NeurIPS'20, 21, 22
+                NeurIPS'20, 21, 22, 23
               </li>
               <li>
                 AAAI'20, 21, 22
@@ -1879,7 +1915,6 @@
 
 			<ul>
         <li>IEEE (Institute of Electrical and Electronics Engineers) Membership, 2023-Present<br>
-        <!-- <li>ACM (Association for Computing Machinery) Student Membership, 2021-Present<br> -->
         <li>ACL (Association for Computational Linguistics) Membership, 2021-Present<br>
   			<li>AAAI (Association for the Advancement of Artificial Intelligence) Student Membership, 2019-2022<br>
   			<li>SIAM (Society of Industrial and Applied Mathematics) CAS Student Member, 2016-2022<br>
@@ -1898,7 +1933,7 @@
             <td style="padding:0px">
               <br><hr width=80%>
               <p style="text-align:right;font-size:small;">
-                *Last updated on 05/02/2023*
+                *Last updated on 05/24/2023*
                 <br>
                 <a href="https://jonbarron.info/">This guy makes a nice webpage</a>
               </p>

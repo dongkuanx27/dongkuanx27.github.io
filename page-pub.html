@@ -130,22 +130,6 @@
 
           <tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
-              <img src="images/DK/DALD.png" alt="3DSP" width="160" height="120" style="border-style: none">
-            </td>
-            <td width="75%" valign="middle">
-              <a id="3DSP">
-                <papertitle>Improving Logits-based Detector without Logits from Black-box LLMs</papertitle>
-              </a>
-              <br>
-              C. Zeng, S. Tang, X. Yang, Y. Chen, Y. Sun, Z. Xu, Y. Li, H. Chen, W. Cheng, <b>D. Xu</b>
-              <br>
-              <a href="https://arxiv.org/pdf/2406.05232">PDF</a> (available) / <a>Code</a> (to appear)
-              <p>We introduce a distribution-aligned method for black-box LLM detection. It aligns the surrogate model’s distribution with the unknown target LLMs. It enriches widely adopted zero-shot detection methods (DetectGPT, DNA-GPT, Fast-DetectGPT) with a ‘plug-and-play’ enhancement feature.</p>
-            </td>
-          </tr>
-
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
               <img src="images/DK/toolnet.png" alt="3DSP" width="160" height="120" style="border-style: none">
             </td>
             <td width="75%" valign="middle">
@@ -157,6 +141,42 @@
               <br>
               <a href="https://arxiv.org/pdf/2403.00839.pdf">PDF</a> (available) / <a>Code</a> (to appear)
               <p>We introduce ToolNet, a plug-and-play method to assists LLMs in handling massive tools. ToolNet organizes tools in a weighted directed graph (node represents tools and edges denote tool transition) based on the tool-use trajectories produced by LLMs. An LLM navigates in the graph by iteratively choosing the next one from its successors until the task is resolved. Graphs are updated online, enabling adjustment to accommodate the frequent updates of tools and new tasks.</p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/DK/DALD.png" alt="3DSP" width="160" height="120" style="border-style: none">
+            </td>
+            <td width="75%" valign="middle">
+              <a id="3DSP">
+                <papertitle>Improving Logits-based Detector without Logits from Black-box LLMs</papertitle>
+              </a>
+              <br>
+              C. Zeng, S. Tang, X. Yang, Y. Chen, Y. Sun, Z. Xu, Y. Li, H. Chen, W. Cheng, <b>D. Xu</b>
+              <br>
+              <em><b>[NeurIPS 2024]</b></em> <i>The 38th Conference on Neural Information Processing Systems</i>
+              <br>
+              <a href="https://arxiv.org/pdf/2406.05232">PDF</a> (available) / <a>Code</a> (to appear)
+              <p>We introduce a distribution-aligned method for black-box LLM-generated text detection. It aligns the surrogate model’s distribution with the unknown target LLMs. It enriches widely adopted zero-shot detection methods (DNA-GPT, Fast-DetectGPT, etc.) with a ‘plug-and-play’ enhancement feature.</p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/DK/AdaDiff.png" alt="3DSP" width="160" height="120" style="border-style: none">
+            </td>
+            <td width="75%" valign="middle">
+              <a id="3DSP">
+                <papertitle>AdaDiff: Accelerating Diffusion Models through Step-Wise Adaptive Computation</papertitle>
+              </a>
+              <br>
+              S. Tang, Y. Wang, C. Ding, Y. Liang, Y. Li, <b>D. Xu</b>
+              <br>
+              <em><b>[ECCV 2024]</b></em> <i>The 18th European Conference on Computer Vision</i>
+              <br>
+              <a href="https://arxiv.org/pdf/2309.17074">PDF</a> (available) / <a href="https://github.com/Tangshengku/AdaDiff">Code</a> <font color="red">(available)</font>
+              <p>We propose an adaptive computational method that dynamically allocates computation resources in each sampling step to improve the generation efficiency of diffusion models. Our method can be seamlessly integrated into any existing diffusion models (both CNN- and Transformer-based) and can be easily combined with approaches that reduce the number of sampling steps in diffusion models.</p>
             </td>
           </tr>
 
@@ -175,24 +195,6 @@
               <br>
               <a>PDF</a> (to appear) / <a href="https://sites.google.com/ncsu.edu/chatgpt-workshop/home"> course workshop website</a> (available)
               <p>We develop a five-session interactive course on ChatGPT's features, limitations, prompt engineering techniques, ethical considerations, and strategies for incorporating ChatGPT into teaching. Our thematic analysis highlights that after the course, teachers have a more positive & nuanced understanding of ChatGPT, with quotes with positive connotations rising from 45% to 68%.</p>
-            </td>
-          </tr>
-
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <img src="images/DK/AdaDiff.png" alt="3DSP" width="160" height="120" style="border-style: none">
-            </td>
-            <td width="75%" valign="middle">
-              <a id="3DSP">
-                <papertitle>AdaDiff: Accelerating Diffusion Models through Step-Wise Adaptive Computation</papertitle>
-              </a>
-              <br>
-              S. Tang, Y. Wang, C. Ding, Y. Liang, Y. Li, <b>D. Xu</b>
-              <br>
-              <em><b>[ECCV 2024]</b></em> <i>The 18th European Conference on Computer Vision</i>
-              <br>
-              <a href="https://arxiv.org/pdf/2309.17074">PDF</a> (available) / <a>Code</a> (to appear)
-              <p>We propose an adaptive computational method that dynamically allocates computation resources in each sampling step to improve the generation efficiency of diffusion models. Our method can be seamlessly integrated into any existing diffusion models (both CNN- and Transformer-based) and can be easily combined with approaches that reduce the number of sampling steps in diffusion models.</p>
             </td>
           </tr>
 
@@ -517,7 +519,7 @@
               <br>
               J. Wang, X. Yang, S. Cui, L. Che, L. Lyu, <b>D. Xu</b>, F. Ma
               <br>
-              <em><b>[NeurIPS 2023]</b></em> <i>Thirty-seventh Conference on Neural Information Processing Systems</i>
+              <em><b>[NeurIPS 2023]</b></em> <i>The 37th Conference on Neural Information Processing Systems</i>
               <br>
               <a href="https://arxiv.org/pdf/2308.08643.pdf">PDF</a>
               <p>This paper focuses on addressing the practical yet challenging problem of model heterogeneity in federated learning, where clients possess models with different network structures. We propose pFedHR, focusing on solving the problem of heterogeneous model cooperation.</p>
@@ -1473,7 +1475,7 @@
             <td style="padding:0px">
               <br><hr width=80%>
               <p style="text-align:right;font-size:small;">
-                *Last updated on 9/1/2024*
+                *Last updated on 9/27/2024*
               </p>
             </td>
           </tr>
